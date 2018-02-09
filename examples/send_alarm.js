@@ -21,4 +21,8 @@ var ALARM = {
         "eventTimestamp": "1"
     };
 
-client.send(ALARM, process.argv[2]);
+var con = new client.AlarmConn(process.argv[2]);
+
+con.send(ALARM);
+
+setTimeout(function() { con.close(); process.exit(0) }, 500);
