@@ -23,9 +23,6 @@ class AlarmConn {
     // Bound to this object instacne
     this.on_channel_open = this.on_channel_open.bind(this);
     this.on_connect = this.on_connect.bind(this);
-    this._send = this._send.bind(this);
-    this.send = this.send.bind(this);
-    this.close = this.close.bind(this);
 
     let param = {};
     param.hostname = hostname;
