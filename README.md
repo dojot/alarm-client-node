@@ -9,9 +9,9 @@ npm install dojot-clientlib
 This library implements an Alarm Manager nodejs client for sending alarms to it
 through RabbitMQ.
 
-## How does it works
+## How does it work
 
-The client sends a JSON formated alarm event to the RabbitMQ instance of Alarm
+The client sends a JSON formatted alarm event to the RabbitMQ instance of Alarm
 Manager. The alarm is enqueued until a server channel connection is available.
 
 ### Sending messages to Alarm Manager
@@ -62,14 +62,14 @@ client.send(ALARM);
 client.close();
 ```
 
-Other parameters includes:
+Other parameters include:
 ```javascript
 function send(alarm,
   hostname = 'localhost', port = '5672',
   username = 'guest', password = 'guest')
 ```
 
-The user should close the connection when is done through:
+When no more alarms are to be sent, the connection should be closed using:
 ```javascript
 function close();
 ```
