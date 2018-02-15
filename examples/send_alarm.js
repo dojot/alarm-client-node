@@ -6,8 +6,8 @@
 var client = require('../client');
 
 var ALARM = {
-        "namespace": "test.commons.backtrace",
-        "domain": "ApplicationCrash",
+        "namespace": "dojot.auth",
+        "domain": "AuthenticationError",
         "description": "description to be written",
         "severity": "Minor",
         "primarySubject": {
