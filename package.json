@@ -1,0 +1,29 @@
+{
+  "name": "dojot-clientlib",
+  "version": "1.0.0",
+  "description": "dojot's IOT Alarm Manager client",
+  "main": "./client.js",
+  "scripts": {
+    "test": "echo nothing"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dojot/alarm-client-json.git"
+  },
+  "keywords": [
+    "alarm",
+    "nodejs",
+    "dojot",
+    "iot"
+  ],
+  "author": "Manuel Gavidia",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/dojot/alarm-client-json/issues"
+  },
+  "homepage": "https://github.com/dojot/alarm-client-json#readme",
+  "dependencies" : {
+    "js-base64": "^2.3.2",
+    "amqplib"  : "^0.5.2"
+  }
+}
