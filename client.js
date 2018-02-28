@@ -65,7 +65,7 @@ class AlarmConn {
   }
 
   close() {
-    this.conn.close();
+    if (this.hasOwnProperty('conn')) this.conn.close();
   }
 }
 
