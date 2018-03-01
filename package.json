@@ -22,8 +22,7 @@
     "url": "https://github.com/dojot/alarm-client-json/issues"
   },
   "homepage": "https://github.com/dojot/alarm-client-json#readme",
-  "dependencies" : {
-    "js-base64": "^2.3.2",
-    "amqplib"  : "^0.5.2"
+  "dependencies": {
+    "amqplib": "^0.5.2"
   }
 }

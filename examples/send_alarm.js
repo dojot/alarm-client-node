@@ -15,8 +15,9 @@ var ALARM = {
             "module_name": "My beautiful module"
         },
         "additionalData": {
-            "process_id": "1",
-            "signal": "1"
+            "userid": "1",
+            "username": "joe",
+            "reason": "rabbit in the hole"
         },
         "eventTimestamp": "1"
     };
